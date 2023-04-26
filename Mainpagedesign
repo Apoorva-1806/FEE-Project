@@ -60,3 +60,17 @@ overflow: hidden;
     margin-left: 90px;
     margin-right: 90px;
 }
+.text
+{
+    padding:50px;
+    font-size:40px;
+    color:black;
+    margin-left: 230px;
+}
+.text1
+{
+    padding:50px;
+    font-size:40px;
+    color:black;
+    margin-right: 230px;
+}
