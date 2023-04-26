@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.back
+{
+    background-image: url('d3.jpg'); 
+    background-repeat: no-repeat;
+    height:660px;
+
+}
+.nav .navli
+{
+    list-style-type: none;
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Change the link color to #111 (black) on hover */
+.nav .navli:hover {
+    background-color: rgb(233, 233, 233);
+  }
+
+.nav
+{
+background-color: white;
+display: flex;
+justify-content: right;
+padding: 20px;
+z-index: 100;
+width: 100%;
+height: 20px;
+overflow: hidden;
+}
+.deg 
+{   
+    margin-top: 550px;
+    margin-right: 1250px;
+    padding: 12px 14px;
+    font-size: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+.pig
+{
+    font-size:40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin-top: 75px;
+}
+.body
+{
+    margin-left: 90px;
+    margin-right: 90px;
+}
