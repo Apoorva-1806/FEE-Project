@@ -5,7 +5,7 @@
     margin: 0;
 
 }
-.back
+.a01
 {
     background-color: black; 
     height:450px; 
@@ -13,22 +13,7 @@
     float: right; 
     margin-top:5px;
 }
-.nav .navli
-{
-    list-style-type: none;
-    display: inline;
-    color: grey;
-    text-align: center;
-    padding: 12px 14px;
-    text-decoration: none;
-    font-size: 20px;
-}
-/* Change the link color to #111 (black) on hover */
-.nav .navli:hover {
-    background-color: rgb(233, 233, 233);
-  }
-
-.nav
+.a01 .a02
 {
     background-color:white;
     display: flex;
@@ -40,32 +25,102 @@
     overflow: hidden;
     align-items: center;
 }
-.pig
+.a01 .a02 li
 {
-    font-size:40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align:center;
+    list-style-type: none;
+    display: inline;
+    color: grey;
+    text-align: center;
+    padding: 12px 14px;
+    font-size: 20px;
 }
-.body
+.a01 .a02 a
+{
+    text-decoration: none;
+}
+.a01 .a02 li:hover
+{
+    background-color: rgb(233, 233, 233);
+}
+.a01 .a03{
+    float: right;
+    margin-top: 60px;
+}
+.a01 .a03 img
+{
+    height: 520px;
+}
+
+.m1
+{
+    height: 100px;
+}
+.m2
+{
+    font-size: 50px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-style: bold;
+}
+
+.b01
 {
     margin-left: 100px;
     margin-right: 100px;
 }
-.text
+.b01 .b02
+{
+    height: 450px;
+}
+.b01 .b03
+{
+    height: 450px;
+}
+.b01 .b03 img
+{
+    height: 300px;
+    float: right;
+}
+.b01 .b02 img
+{
+    height: 300px;
+    float: left;
+}
+.b01 .b03 h1
 {
     padding:50px;
     font-size:40px;
     color:black;
     margin-left: 230px;
+    float: left;
 }
-.text1
+.b01 .b02 h1
 {
     padding:50px;
     font-size:40px;
     color:black;
     margin-right: 230px;
+    float: right;
 }
 
-a:link {
+.b01 .b02 .button {
+    background-color:aquamarine;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-  }
+    display: inline-block;
+    font-size: 16px;
+}
+.b01 .b03 .button {
+    background-color:aquamarine;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
