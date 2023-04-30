@@ -1,1 +1,131 @@
+HtMl-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dji Avata</title>
+    <link href="Dji-Avata.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+</head>
+<body>
+    <div class="main-header">
+        <nav>
+            <div class="navbar">
+            <h5>Home</h5>
+            <h5>Store</h5>
+            <h5>About</h5>
+            <h5>Product</h5>
+        </div>
+        <div class="find">
+            <h5 > <i class="fa fa-search"></i></h5>
+            <div class="con">
+            <h5><i class="fa fa-user" >Appurav</i><i class="fa fa-arrow-down" ></i></h5>
+        </div>
+      
+        </div>
+        </nav>
+        <img src="Dji avata.png">
+        <div class="detail">
+            <h1> Dji Avata</h1>
+            <p id="Fly"> Born to Fly</p>
+            <p> The Avata is all about capturing immersive video and can capture in 4K up to 60 fps, 2.7K at up to 100 fps, and 1080p up to 100 fps with DJI Goggles 2</p>
+            <a href="https://www.amazon.com/DJI-Mini-Pro-Lightweight-Tri-Directional/dp/B09WDBDGBZ?th=" target="_blank">
+            <button >View details and buy</button>
+        </a>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+CSS-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+.main-header{
+position: relative;
+width: 100%;
+height: 100%;
+background-color: rgb(11, 11, 11);
+}
+
+#search{
+    color: white;
+}
+#search{
+    color: white;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.navbar{
+   display: flex;
+   gap: 20px;
+   font-size: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 100;
+
+}
+.find{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.con{
+    gap: 2px;
+}
+.main-header img{
+    position: absolute;
+    top: 10px;
+    left: 0%;
+    width: 60%;
+    height: 90%;
+}
+.detail{
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: end;
+}
+.detail h1{
+    margin-right: 30%;
+    font-size: 4vw;
+}
+.detail p{
+    font-size: 1vw;
+    width: 50%;
+    margin-left: 10%;
+}
+.detail button{
+    margin-top: 5%;
+    margin-right: 40%;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+}
+#Fly{
+margin-right: 70%;
+font-size:2vw;
+}
+
 
