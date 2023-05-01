@@ -98,22 +98,22 @@ nav{
     height: 90%;
 }
 .detail{
-    width: 60%;
+    width: 40%;
     height: 60%;
     position: absolute;
     top: 20%;
-    right: 10%;
+    right: 0%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     text-align: end;
 }
 .detail h1{
-    margin-right: 5%;
-    font-size: 3vw;
+    margin-right: 25%;
+    font-size: 4vw;
 }
 .detail p{
     font-size: 1vw;
-    width: 40%;
+    width: 50%;
     margin-left: 10%;
 }
 .detail button{
@@ -123,5 +123,8 @@ nav{
     border: none;
     border-radius: 20px;
 }
-
+#Fly{
+margin-right: 90%;
+font-size:2vw;
+}
 
